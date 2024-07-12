@@ -4,7 +4,7 @@ image:
   tag:
   pullPolicy:
   gitleaks:
-    binaryPath: /vcs_scanner/gitleaks_config/seco-gitleaks-linux-amd64
+    binaryPath: /vcs_scanner/gitleaks_config/gitleaks
 replicas: 1
 restartPolicy: "Always"
 config:
